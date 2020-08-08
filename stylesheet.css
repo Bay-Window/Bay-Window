@@ -1,0 +1,10 @@
+li {
+  list-style: none;
+}
+
+.header {}
+
+.main {
+  background-image: url(innerviewIMG_2475.jpeg);
+  background-size: cover;
+}
