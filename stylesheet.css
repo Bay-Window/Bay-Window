@@ -1,0 +1,67 @@
+body{
+  background-image: url(innerviewIMG_2475.jpeg);
+  width: auto;
+  height: 100%;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: rgba(119,136,153,0.7);
+  height: 90px;
+  width: auto;
+  position: fixed;
+}
+
+.header-logo {
+  float: left;
+  height: 80px;
+  margin: 5px 5px;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  padding : 20px;
+}
+
+.main {
+  padding: 30px 0px;
+}
+
+.copy-container {
+  text-align: center;
+  width: 100%;
+  margin: 90px auto;
+
+}
+
+.contents {
+  padding-top: 30px;
+  background-color: rgba(119,136,153,0.7)
+}
+
+.contents-item {
+  width: 25%;
+  padding: 20px;
+  float: left;
+}
+
+.contents-item p {
+  border-bottom: 1px solid white;
+}
+
+.contents-item img {
+  width: auto;
+}
+
+iframe {
+  width: auto;
+  style="border:0;
+}
