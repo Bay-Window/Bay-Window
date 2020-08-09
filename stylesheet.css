@@ -13,6 +13,7 @@ li {
   background-color: rgba(119,136,153,0.7);
   height: 90px;
   width: auto;
+  position: fixed;
 }
 
 .header-logo {
@@ -43,8 +44,6 @@ li {
 
 .contents {
   padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
   background-color: rgba(119,136,153,0.7)
 }
 
@@ -58,11 +57,11 @@ li {
   border-bottom: 1px solid white;
 }
 
-.contents-img {
+.contents-item img {
   width: auto;
 }
 
 iframe {
-  width: 100%;
+  width: auto;
   style="border:0;
 }
