@@ -1,0 +1,32 @@
+body{
+  background-image: url(innerviewIMG_2475.jpeg);
+  width: auto;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: rgba(119,136,153,0.5);
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  padding : 10px;
+}
+
+.header-list {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  padding : 20px;
+}
+
+
+.topwrapper {
+}
