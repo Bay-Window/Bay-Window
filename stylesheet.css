@@ -44,7 +44,7 @@ li {
 
 .contents {
   padding-top: 30px;
-  background-color: rgba(119,136,153,0.7)
+  background-color: rgba(119,136,153,0.7);
 }
 
 .contents-item {
@@ -58,7 +58,11 @@ li {
 }
 
 .contents-img {
-  width: 99%;
+  width: 100%;
+}
+
+.contents-item img {
+  width: 100%;
 }
 
 iframe {
