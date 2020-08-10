@@ -1,8 +1,11 @@
 body{
-  background-image: url(innerviewIMG_2475.jpeg);
   width: auto;
   height: 100%;
   color: white;
+}
+
+.body-wrapper{
+  background-image: url(innerviewIMG_2475.jpeg);
 }
 
 li {
