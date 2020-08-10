@@ -25,6 +25,7 @@ li {
 
 .header-list {
   float: right;
+  font-size: 12px;
 }
 
 .header-list li {
@@ -33,19 +34,20 @@ li {
 }
 
 .main {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .copy-container {
   text-align: center;
   width: 100%;
-  margin: 40px auto;
+  margin: 10px auto;
+  font-size: 40px;
 }
 
 .contents {
   padding: 20px 0px;
   background-color: rgba(119,136,153,0.7);
-  height: auto;
+  height: 100%;
 }
 
 .contents-space {
@@ -72,7 +74,7 @@ li {
 }
 
 .contents-list li {
-  padding: 0px
+  padding: 0px;
 }
 
 iframe {
