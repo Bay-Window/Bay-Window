@@ -54,8 +54,9 @@ li {
 }
 
 .contents-item {
-  width: auto;
-  margin: 10px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contents-item p {
