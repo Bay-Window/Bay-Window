@@ -47,10 +47,13 @@ li {
   background-color: rgba(119,136,153,0.7);
 }
 
-.contents-item {
+.contents-space {
   width: 25%;
-  padding: 20px;
   float: left;
+}
+
+.contents-item {
+  padding: 10px;
 }
 
 .contents-item p {
