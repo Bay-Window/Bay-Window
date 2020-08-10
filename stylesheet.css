@@ -2,12 +2,8 @@ body{
   width: auto;
   height: 100%;
   color: white;
-}
-
-.body-wrapper{
-  width: 100%;
-  position: absolute;
-  z-index: 0;
+  background-image: url(innerviewIMG_2475.jpeg);
+  background-size: cover;
 }
 
 li {
