@@ -5,8 +5,9 @@ body{
 }
 
 .body-wrapper{
-  background-image: url(innerviewIMG_2475.jpeg);
   width: 100%;
+  position: absolute;
+  z-index: 0;
 }
 
 li {
