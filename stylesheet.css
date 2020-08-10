@@ -49,11 +49,8 @@ li {
 
 .contents-space {
   width: 25%;
-  float: left;
-}
-
-.contents-item {
   padding: 10px;
+  float: left;
 }
 
 .contents-item p {
