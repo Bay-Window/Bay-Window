@@ -13,8 +13,9 @@ li {
 .header {
   background-color: rgba(119,136,153,0.7);
   height: 90px;
-  width: auto;
   top: 0px;
+  left: 0px;
+  right: 0px;
   position: fixed;
 }
 
@@ -94,7 +95,7 @@ iframe {
   style="border:0;
 }
 
-@media (max-width:670px){
+@media (max-width:1000px){
   .contents-space {
     width: 100%;
   }
