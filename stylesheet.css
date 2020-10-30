@@ -33,7 +33,6 @@ header{
 }
 
 .header-logospace{
-  float: left;
   top: 0px;
   left: 0px;
   height: 18%;
@@ -52,11 +51,11 @@ header{
   align-items: center;
 }
 
-h1{
+.title-demado{
   font-family: 'Hiragino Mincho ProN';
 }
 
-h2{
+.title-BayWindow{
   font-family: 'Apple Chancery';
 }
 
