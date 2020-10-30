@@ -1,14 +1,18 @@
 html,body{
- height:　100%;
- width:　100%;
- font-size : 100%;
- margin-left: auto;
- margin-right: auto;
- background-color: rgba(70,130,180,0.8);
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(70,130,180,0.8);
 }
 
 body{
   color: white;
+}
+
+.body-cover{
+  width: auto;
+  height: 100%;
 }
 
 header{
@@ -130,4 +134,15 @@ footer{
 iframe {
   width: 100%;
   style="border:0;
+}
+
+@media (max-width:1000px){
+  header {
+    height: 25%;
+  }
+
+
+  .contents-space {
+    width: 100%;
+  }
 }
