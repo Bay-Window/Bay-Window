@@ -1,97 +1,127 @@
 body{
+  color: white;
+}
+
+.body-cover{
   width: auto;
   height: 100%;
-  color: white;
-  background-image: url("innerviewIMG_2475.jpeg");
-  background-size: cover;
+  background-color: rgba(70,130,180,0.8);
 }
 
-li {
-  list-style: none;
+header{
+  height: 50%;
+  width: auto;
+  position: relative;
 }
 
-.header {
-  background-color: rgba(119,136,153,0.7);
-  height: 90px;
+.bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
   top: 0px;
   left: 0px;
-  right: 0px;
-  position: fixed;
-}
-
-.header-logo {
-  float: left;
-  height: 80px;
-  margin: 5px 5px;
-}
-
-.header-list {
-  float: right;
-}
-
-.header-list li {
-  float: left;
-  padding : 20px;
-  font-size: 18px;
-}
-
-.main {
-  margin-top: 120px;
-}
-
-.copy-container {
-  text-align: center;
-  width: 100%;
-  margin: auto;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-.contents {
-  padding: 0px;
-  background-color: rgba(119,136,153,0.7);
+  background-image: url(botan_cover.png);
   background-size: cover;
+  opacity: 1.0;
 }
 
-.contents-space {
-  width: 25%;
+.header-logo{
   float: left;
+  top: 0px;
+  left: 0px;
+  height: 18%;
+  margin: 5px 5px;
+  position: absolute;
 }
 
-.contents-item {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
+.header-title{
+  position: absolute;
+  height: 76%;
+  width: 100%;
+  background-image: url(innerview_2475.jpeg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.contents-item p {
+h1{
+  font-family: 'Hiragino Mincho ProN';
+}
+
+h2{
+  font-family: 'Apple Chancery';
+}
+
+footer{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.footer-space{
+  width: auto;
+  height: auto;
+}
+
+.contents-space{
+  float: left;
+  width: 33%;
+  height: 100%;
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.contents-title{
+  position: absolute;
+  font-size: 30px;
   border-bottom: 1px solid white;
 }
 
-.contents-img {
+.contents{
+  position: absolute;
+}
+
+.contents-img{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 59%;
   width: 100%;
 }
 
-.contents-item img {
-  width: 100%;
+.news-img{
+  background-image: url(catstreetIMG_2729.jpeg);
+  background-size: cover;
 }
 
-dt {
-  float: left;
+.contents-date{
+  font-size: 18px;
+  font-family: 'Apple Chancery';
 }
 
-.contents-list li {
-  padding: 0px;
+.contents-sentences{
+  font-size: 24px;
+  font-family: 'Hiragino Mincho ProN';
 }
 
-.Access-map {
-  padding: 20px;
+.alcohol-img{
+  background-image: url(1967brandyIMG_2476.jpeg);
+}
+
+.access-contents{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.access-p{
+  font-size: 24px;
+  font-family: 'Hiragino Mincho ProN';
+}
+
+.Access-map{
+  padding-top: 5px;
 }
 
 iframe {
@@ -100,6 +130,11 @@ iframe {
 }
 
 @media (max-width:1000px){
+  header {
+    height: 25%;
+  }
+
+
   .contents-space {
     width: 100%;
   }
