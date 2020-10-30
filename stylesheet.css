@@ -1,11 +1,14 @@
-body{
-  color: white;
+html,body{
+ height:　100%;
+ width:　100%;
+ font-size : 100%;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: rgba(70,130,180,0.8);
 }
 
-.body-cover{
-  width: auto;
-  height: 100%;
-  background-color: rgba(70,130,180,0.8);
+body{
+  color: white;
 }
 
 header{
