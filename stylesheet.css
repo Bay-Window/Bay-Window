@@ -33,7 +33,7 @@ header{
 }
 
 .header-logoimg{
-  background-image: url(innerview_2475.jpeg);
+  background-image: url(lanthanum.gif);
   background-repeat: no-repeat;
 }
 
@@ -47,17 +47,15 @@ header{
   align-items: center;
 }
 
-.title-sentences{
-  text-align: center;
-}
-
 .title-demado{
   font-family: 'Hiragino Mincho ProN';
+  text-align: center;
 
 }
 
 .title-BayWindow{
   font-family: 'Apple Chancery';
+  text-align: center;
 }
 
 .bg{
