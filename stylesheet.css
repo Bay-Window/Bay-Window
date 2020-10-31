@@ -1,165 +1,100 @@
-html,body{
-  height: 100%;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #778899;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>出窓　Bay Window</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
 
-body{
-  color: white;
-}
+  <body>
+    <div class="body-cover">
+      <header>
+        <div class="header-space">
+          <div class="header-logo">
+            <img class="lanthanum" src="lanthanum_brooch.png" alt="ランタンのブローチ">
+          </div>
+          <div class="header-title">
+            <div class="header-titlespace">
+              <div class="title-sentences">
+                <div class="title-demado">出窓</div>
+                <div class="title-BayWindow">Bay Window</div>
+              </div>
+            </div>
 
-.body-cover{
-  width: auto;
-  height: 100%;
-}
+          </div>
+        </div>
+        <div class="bg">
 
-header{
-  height: 50%;
-  width: auto;
-}
+        </div>
+      </header>
 
-.header-space{
-  width: auto;
-  height: 100%;
-}
+      <footer>
+        <div class="footer-space">
 
-.header-logo{
-  height: 18%;
-  padding: 5px 5px;
-}
+          <div class="contents-space">
+            <div class="contents-title">
+              <p>News</p>
+            </div>
+            <div class="contents">
+              <div class="comtents-img">
+                <div class="news-img">
 
-.lanthanum{
-  max-height: 100%;
+                </div>
+              </div>
+            </div>
+            <div class="contents">
+              <p class="contents-date">2020.11.01</p>
+              <p class="contents-sentences">    ホームページを</p>
+              <p class="contents-sentences">    　　　開設しました。</p>
+            </div>
+            <div class="bg">
 
+            </div>
+          </div>
 
-}
+          <div class="contents-space">
+            <div class="contents-title">
+              <p>Alcohol</p>
+            </div>
+            <div class="contents">
+              <div class="contents-img">
+                <div class="alcohol-img">
 
-.header-title{
-  height: 76%;
-  width: 100%;
-  background-image: url(innerview_2475.jpeg);
-  background-size: cover;
-}
+                </div>
+              </div>
+            </div>
+            <div class="contents">
+              <p class="contents-date">2020.10.23</p>
+              <p class="contents-sentences">    Arran18年</p>
+              <p class="contents-sentences">    　　　入荷しました。</p>
+            </div>
+            <div class="bg">
 
-.header-titlespace{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+            </div>
+          </div>
 
-.title-sentences{
-}
+          <div class="contents-space">
+            <div class="contents-title">
+              <p>Access</p>
+            </div>
+            <div class="access-contents">
+              <p class="access-p">住所：東京都新宿区歌舞伎町1-1-9</p>
+              <p class="access-p">        新宿ゴールデン街G2通り1F出窓</p>
+              <p class="access-p">電話：070-3990-3971</p>
+              <p class="access-p">営業：19:00-3:00 年中無休</p>
+            </div>
 
-.title-demado{
-  font-family: 'Hiragino Mincho ProN';
-  font-size: 42px;
-  text-align: center;
+            <div class="twitter-space">
+              <a href="">Twitter</a>
+            </div>
 
-}
+            <div class="Access-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.3173501366377!2d139.70246381532863!3d35.69380743688937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d560a3ec6bb%3A0xa87ef9c5ec80b8ff!2z5Ye656qTIEJheSBXaW5kb3c!5e0!3m2!1sja!2sjp!4v1596957986158!5m2!1sja!2sjp" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
 
-.title-BayWindow{
-  font-family: 'Apple Chancery';
-  text-align: center;
-  font-size: 30px;
-}
-
-.bg{
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  background-image: url(botan_cover.png);
-  background-size: cover;
-  opacity: 0.0;
-}
-
-footer{
-  height: 50%;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 10px;
-}
-
-.footer-space{
-  width: auto;
-  height: auto;
-}
-
-.contents-space{
-  float: left;
-  width: 33%;
-  height: 100%;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-
-.contents-title{
-  font-size: 30px;
-  border-bottom: 1px solid white;
-}
-
-
-
-.contents-img{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  height: 59%;
-  width: 100%;
-}
-
-.news-img{
-  height: 100%;
-  width: auto;
-  background-image: url(catstreetIMG_2729.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.contents-date{
-  font-size: 20px;
-  font-family: 'Apple Chancery';
-}
-
-.contents-sentences{
-  font-size: 24px;
-  font-family: 'Hiragino Mincho ProN';
-}
-
-.alcohol-img{
-  background-image: url(1967brandyIMG_2476.jpeg);
-}
-
-.access-contents{
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.access-p{
-  font-size: 24px;
-  font-family: 'Hiragino Mincho ProN';
-}
-
-.Access-map{
-  padding-top: 5px;
-}
-
-iframe {
-  width: 100%;
-  style="border:0;
-}
-
-@media (max-width:1000px){
-  header {
-    height: 25%;
-  }
-
-
-  .contents-space {
-    width: 100%;
-  }
-}
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
