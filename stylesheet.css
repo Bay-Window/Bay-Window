@@ -163,14 +163,3 @@ iframe {
   height: 20%;
   style="border:0;
 }
-
-@media (max-width:1000px){
-  header {
-    height: 25%;
-  }
-
-
-  .contents-space {
-    width: 100%;
-  }
-}
