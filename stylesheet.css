@@ -47,6 +47,10 @@ header{
   align-items: center;
 }
 
+.title-sentences{
+  margin: auto;
+}
+
 .title-demado{
   font-family: 'Hiragino Mincho ProN';
   text-align: center;
