@@ -15,6 +15,11 @@ body{
   height: 100%;
 }
 
+.header-space{
+  width: auto;
+  height: 100%;
+}
+
 header{
   height: 50%;
   width: auto;
@@ -23,11 +28,12 @@ header{
 
 .header-logo{
   height: 18%;
+  width: auto;
   padding: 5px 5px;
 }
 
 .header-logoimg{
-  background-image: url(lanthanum.gif);
+  background-image: url(lanthanum.png);
   background-repeat: no-repeat;
 }
 
@@ -47,7 +53,6 @@ header{
 }
 
 .title-sentences{
-  margin: auto;
 }
 
 .title-demado{
@@ -74,6 +79,7 @@ header{
 }
 
 footer{
+  height: 50%;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 10px;
@@ -88,21 +94,17 @@ footer{
   float: left;
   width: 33%;
   height: 100%;
-  position: relative;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 
 .contents-title{
-  position: absolute;
   font-size: 30px;
   border-bottom: 1px solid white;
 }
 
-.contents{
-  position: absolute;
-}
+
 
 .contents-img{
   padding-top: 5px;
