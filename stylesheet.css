@@ -21,12 +21,15 @@ header{
   position: relative;
 }
 
+.header-space{
+  position: absolute;
+}
+
 .header-logo{
   top: 0px;
   left: 0px;
   height: 18%;
   padding: 5px 5px;
-  position: absolute;
 }
 
 .header-logoimg{
@@ -35,7 +38,6 @@ header{
 }
 
 .header-title{
-  position: relative;
   height: 76%;
   width: 100%;
   background-image: url(innerview_2475.jpeg);
@@ -45,8 +47,13 @@ header{
   align-items: center;
 }
 
+.title-sentences{
+  text-align: center;
+}
+
 .title-demado{
   font-family: 'Hiragino Mincho ProN';
+
 }
 
 .title-BayWindow{
