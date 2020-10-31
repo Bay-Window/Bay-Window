@@ -15,27 +15,22 @@ body{
   height: 100%;
 }
 
-.header-space{
-  width: auto;
-  height: 100%;
-}
-
 header{
   height: 50%;
   width: auto;
 }
 
+.header-space{
+  width: auto;
+  height: 100%;
+}
 
 .header-logo{
   height: 18%;
-  width: auto;
   padding: 5px 5px;
 }
 
-.header-logoimg{
-  background-image: url(lanthanum.png);
-  background-repeat: no-repeat;
-}
+
 
 .header-title{
   height: 76%;
